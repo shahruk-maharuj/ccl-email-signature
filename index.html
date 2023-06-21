@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCL Email Signature</title>
+    <style>
+      :root {
+        --main-color: #002060;
+        --secondary-color: #808080;
+        --highlight-color: #70ad47;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .img,
+      .social-icons a img {
+        max-width: 100%;
+        height: auto;
+      }
+      .img-cover {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        display: block;
+      }
+      .flex-20,
+      .flex-80 {
+        padding: 15px;
+        flex-basis: 20%;
+      }
+      .flex-80 {
+        flex-basis: 80%;
+        padding: 0 25px;
+      }
+      .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 12px;
+        gap: 25px;
+      }
+      .d-flex,
+      .top {
+        display: flex;
+        align-items: center;
+      }
+      .top {
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+      .team-info h3,
+      .team-info .title,
+      .team-info .brand,
+      .flex-20 h6,
+      .w-100 h6 {
+        color: var(--main-color);
+        font-weight: bold;
+      }
+      .team-info h3 {
+        font-size: 24px;
+      }
+      .team-info .title {
+        font-size: 18px;
+      }
+      .team-info .brand {
+        font-size: 14px;
+      }
+      .contact-info a {
+        margin-right: 10px;
+      }
+      .contact-info img {
+        padding: 10px;
+      }
+      .contact-info p,
+      .flex-20 h6,
+      .w-100 h6 {
+        color: var(--main-color);
+        font-size: 12px;
+      }
+      .flex-20 address {
+        color: var(--secondary-color);
+        font-size: 11px;
+        width: 100%;
+        max-width: 90%;
+      }
+      .w-100 {
+        width: 100%;
+        max-width: 96%;
+        padding: 15px;
+      }
+      .w-100 .highlight {
+        color: var(--highlight-color);
+      }
+      .w-100 .small-text {
+        color: var(--secondary-color);
+        font-size: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="d-flex">
+        <div class="flex-20">
+          <div class="img">
+            <img
+              src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/ccl.png"
+              alt="CCL Logo"
+            />
+          </div>
+          <div class="social-icons d-flex">
+            <a
+              href="https://www.facebook.com/centralchamberslaw/"
+              target="_blank"
+            >
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/fb.png"
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/centralchamberslaw.solicitors/"
+              target="_blank"
+            >
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/instag.png"
+                alt="Insta"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/central-chambers-law/about/"
+              target="_blank"
+            >
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/linkedin.png"
+                alt="LinkedIn"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="flex-80">
+          <div class="team-info">
+            <h3>Sneha Thomas</h3>
+            <h6 class="title">Paralegal</h6>
+            <h6 class="brand">Central Chambers Law Solicitors</h6>
+          </div>
+          <div class="contact-info">
+            <a href="tel:020 3051 1866" class="d-flex" target="_blank">
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/phone.png"
+                alt="Phone"
+              />
+              <p>(Office): 020 3051 1866</p>
+            </a>
+            <a
+              href="mailto:sneha@centralchamberslaw.co.uk"
+              class="d-flex"
+              target="_blank"
+            >
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/at.png"
+                alt="Email"
+              />
+              <p style="font-weight: bold">sneha@centralchamberslaw.co.uk</p>
+            </a>
+            <a
+              href="https://www.centralchamberslaw.com/"
+              class="d-flex"
+              target="_blank"
+            >
+              <img
+                src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/mouse.png"
+                alt="Website"
+              />
+              <p style="font-weight: bold">www.centralchamberslaw.com</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="d-flex top">
+        <div>
+          <div class="flex-20">
+            <h6>London (Head Office)</h6>
+            <address>
+              Suite 2 Central Chambers The Broadway London W5 2NR
+              <p>(Office): 0203 620 2288</p>
+            </address>
+          </div>
+          <div class="flex-20">
+            <h6>London - Central</h6>
+            <address>
+              Lincoln House 296-302 High Holborn London, WC1V 7JH
+              <p>(Office): 0203 3051 1866</p>
+            </address>
+          </div>
+          <div class="flex-20">
+            <h6>London-Leyton</h6>
+            <address>
+              784 High Road Leyton London E10 6AE
+              <p>(Office): 0203 620 2288</p>
+            </address>
+          </div>
+        </div>
+        <div>
+          <div class="flex-20">
+            <h6>ESSEX - ILFORD</h6>
+            <address>
+              Olympic House 28-42 Clements Road Ilford IG1 1BA
+              <p>(Office): 0203 620 2288</p>
+            </address>
+          </div>
+          <div class="flex-20">
+            <h6>Birmingham</h6>
+            <address>
+              One Victoria Square Birmingham B1 1BD
+              <p>(Office): 0203 620 2288</p>
+            </address>
+          </div>
+          <div class="flex-20">
+            <h6>Manchester</h6>
+            <address>
+              125 Deansgate Manchester M3 2LH
+              <p>(Office): 0203 620 2288</p>
+            </address>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-100">
+          <img
+            src="https://www.centralchamberslaw.com/wp-content/uploads/2023/06/brands.png"
+            alt="brands"
+            class="img-cover"
+          />
+        </div>
+        <div class="w-100">
+          <h6 class="highlight">
+            Please think before you print - remember the environment
+          </h6>
+          <p class="small-text">
+            Central Chambers Law Solicitors is a trading name of Central
+            Chambers Law Ltd. Company Registration Number: 11326453. Registered
+            address: Suite 2, Central Chambers, The Broadway, Ealing, London W5
+            2NR. Central Chambers Solicitors Ltd is regulated in the United
+            Kingdom by the Solicitors Regulation Authority under SRA Number 649
+            569.
+          </p>
+          <h6>Services are not acceptable by fax or email.</h6>
+          <p class="small-text">
+            This message is confidential and may be legally privileged or
+            otherwise protected from disclosure. If you are not the intended
+            recipient, please telephone or email the sender and delete this
+            message and any attachment from your system; you must not copy or
+            disclose the contents of this message or any attachment to any other
+            person. Copyright in documents created by or on behalf of this
+            company remains vested in the company and we assert our moral rights
+            unless the terms of our relevant client's engagement provides
+            otherwise. Whilst all reasonable care has been taken to avoid the
+            transmission of viruses, it is the responsibility of the recipient
+            to ensure that the onward transmission, opening or use of this
+            message and any attachments will not adversely affect its systems or
+            data. No responsibility is accepted in this regard and the recipient
+            should carry out such virus and other checks as it considers
+            appropriate.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
