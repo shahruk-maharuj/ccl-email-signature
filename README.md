@@ -2,6 +2,8 @@
 
 This repository contains the HTML code for the Central Chambers Law (CCL) email signature. The email signature is designed to provide a professional and consistent sign-off for company emails, including the company logo, social media icons, contact information, and office addresses.
 
+![ccl-email-signature-by-shahrukmaharuj](https://github.com/shahruk-maharuj/ccl-email-signature/assets/46062763/4e6c07da-730e-4ffc-b929-acc246857429)
+
 ## Table of Contents
 
 - [Installation](#installation)
